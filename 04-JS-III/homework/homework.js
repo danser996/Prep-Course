@@ -190,16 +190,14 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   aux = []
-  x = 0
   for(let i = 0; i < 10; i++){
     numero += 2;
     aux.push(numero);
     if (numero === i){
       break;
     }
-    x++
   } 
-  if (x < 9){
+  if (i < 9){
     return "Se interrumpió la ejecución"
   }
   return aux  
