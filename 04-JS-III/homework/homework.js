@@ -199,7 +199,7 @@ function breakStatement(numero) {
     }
     x++
   } 
-  if (x !== 9){
+  if (x < 9){
     return "Se interrumpió la ejecución"
   }
   return aux  
