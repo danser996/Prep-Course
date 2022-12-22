@@ -209,10 +209,10 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:  
   for(let i = 0; i < 10; i++){
-    if (i === 5){
+    if (i === 4){
       continue;
     }    
-    numero += 2;
+    numero = numero + 2;
     aux.push(numero);
   } return aux;
 }
