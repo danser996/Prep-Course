@@ -194,10 +194,13 @@ function breakStatement(numero) {
     numero += 2;
     aux.push(numero);
     if (numero === i){
-      return "Se interrumpió la ejecución";
+      break;
     }
-  } return aux;
-  
+  } 
+  if (i != 9){
+    return "Se interrumpió la ejecución"
+  }
+  return aux  
 }
 
 
@@ -210,11 +213,10 @@ function continueStatement(numero) {
   // Tu código:  
   for(let i = 0; i < 10; i++){
     if (i === 5){
-      continue;;
-    } else {   
-    numero = numero + 2;
-    aux.push(numero);
-      }
+      continue;
+    } else{
+      numero += 2;
+      aux.push(numero);}
   } return aux;
 }
 
