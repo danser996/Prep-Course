@@ -210,7 +210,8 @@ function continueStatement(numero) {
   // Tu código:  
   for(let i = 0; i < 10; i++){
     if (i === 4){
-      continue;
+      numero = numero - 2;
+      aux.pop(numero);
     }    
     numero = numero + 2;
     aux.push(numero);
