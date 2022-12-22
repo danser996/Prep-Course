@@ -6,11 +6,11 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x<y){
-    return y
+    return y;
   } else if (y<x){
-    return z
+    return x;
   } else {
-    return x
+    return x;
   }
 }
 
