@@ -172,12 +172,13 @@ function esPrimo(numero) {
       if (esEntero(aux)){
         arr.push(aux);
       }
+    }
     if (arr.length === 2){
       return true;
     } else {
       return false;
     }
-    }
+    
   }
   return false
 }
