@@ -69,8 +69,9 @@ function tieneEmail (usuario) {
   // Tu código:
   if (usuario.email.length > 0){
     return true
-  } 
+  } else {
   return false
+}
 }
 
 function tienePropiedad (objeto, propiedad) {
