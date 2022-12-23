@@ -61,13 +61,16 @@ function nuevoUsuario (nombre, email, password) {
     password: password
   }
   return usuario
-
 }
 
 function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (usuario.email !== undefined){
+    return true
+  } 
+  return false
 }
 
 function tienePropiedad (objeto, propiedad) {
