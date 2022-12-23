@@ -70,7 +70,7 @@ function tieneEmail (usuario) {
   if (usuario['email'] === undefined){
     return false
   } 
-  return false
+  return true
 }
 
 function tienePropiedad (objeto, propiedad) {
