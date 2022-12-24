@@ -39,9 +39,9 @@ function agregarStringInvertida() {
     let StringInvertida = ''
     for(let i = 0; this.length -1 >= 0; i--){
       stringInvertida = stringInvertida + this.charAt(i)
-    }
+    } return stringInvertida
   }
-  return stringInvertida
+  
 }
 
 // ---------------------------------------------------------------------------//
