@@ -111,6 +111,15 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  interseccion = []
+  for (let i = 0; i < arreglo1.length; i++){
+    for (let j = 0; j < arreglo2.length; j++){
+      if (arreglo1[i] === arreglo2[j]){
+        interseccion.push(arreglo2[j])
+      }
+    }
+  }
+  return  interseccion.sort((a,b) => a - b)
 }
 
 
