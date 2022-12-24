@@ -10,6 +10,13 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  mat = []
+  claves = Object.keys(objeto)
+  values = Object.values(objeto)
+  for(let i = 0; i < objeto.lenth; i++){
+    mat.push([claves[i], values[i]])            
+  }
+  return mat
 }
 
 
