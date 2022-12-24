@@ -62,7 +62,7 @@ function asAmirror(str) {
     }
     mirr = mirr + aux + ' '
   }
-  return mirr
+  return mirr.substring(0, mirr.length -1)
 } 
 
 
