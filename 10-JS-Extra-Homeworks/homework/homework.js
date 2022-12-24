@@ -14,7 +14,7 @@ function deObjetoAmatriz(objeto){
   claves = Object.keys(objeto)
   values = Object.values(objeto)
   for(let i = 0; i < objeto.lenth; i++){
-    mat.push([claves[i], values[i]])            
+    mat[i] =[claves[i], values[i]]
   }
   return mat
 }
