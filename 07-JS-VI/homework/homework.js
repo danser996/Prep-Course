@@ -34,8 +34,7 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  let sum = numeros.reduce((acc,num) => acc + num)
-  cb = sum
+  cb(numeros.reduce(((acc,num) => acc + num),0))
 }
 
 function forEach(array, cb) {
