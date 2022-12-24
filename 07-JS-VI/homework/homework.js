@@ -55,6 +55,7 @@ function map(array, cb) {
   for(let i = 0; i < array.length; i++){
     arr.push(cb(array[i]))
   }
+  return arr
 }
 
 function filter(array) {
